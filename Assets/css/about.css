@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 200%;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 0;
+    position: absolute;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    padding: 26px 30px;
+    list-style: none;
+}
+
+.nav-list a {
+    width: 50%;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/img03.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 50vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 90%;
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.about {
+    background: wheat;
+    background-size: cover;
+    min-height: 400px;
+    padding: 5px 30px 15px 30px;
+}
+
+.text {
+    padding: 4px;
+    border: 5px;
+    margin: 80px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+    background-color: none;
+    padding: 30px 20px 15px 20px;
+    border: none;
+    height: 400%;
+    background: lavender;
+    background-size: cover;
+    background-blend-mode: lighten;
+    position: relative;
+    padding: 15px 20px 15px 20px;
+    
+
+}
+.image h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+.frame {
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.pic {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.video{
+   width: 300px;
+   justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.text-footer {
+    background: none;
+    border: 1px solid lightgrey;
+    background-blend-mode: darken;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background: lightgray;
+    background-size: cover;
+}

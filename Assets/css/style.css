@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 200%;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 0;
+    position: absolute;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    padding: 26px 30px;
+    list-style: none;
+}
+.nav-list a{
+    width: 50%;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/img03.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 50vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 90%;
+}
+.section-table{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    text-align: center;
+}
+#sub{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 20%;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse:collapse;
+}
+#sub td, #sub th{
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+#sub tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#sub tr:hover {background-color: #ddd;}
+
+#sub th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.text-footer{
+    background: none;
+    border: 1px solid lightgrey;
+    background-blend-mode: darken;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background: lightgray;
+    background-size: cover;
+}
